@@ -1,0 +1,14 @@
+<div class="portfolio-container">
+  <div class="ohsnap">
+  </div>
+
+  <div class="gifter">
+    <%= cl_image_tag("gifter2", width: 400, height: 300, crop: :fill) %>
+  </div>
+
+  <div class="nav">
+    <%= link_to "ABOUT", about_path %>
+    <%= link_to "PORTFOLIO", portfolio_path, {:style=>'font-weight:700;'} %>
+    <%= link_to "CONTACT", contact_path %>
+  </div>
+</div>
