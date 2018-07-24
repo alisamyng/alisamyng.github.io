@@ -10,4 +10,10 @@ class PagesController < ApplicationController
 
   def portfolio
   end
+
+  def travel
+  end
+
+  def gifter
+  end
 end

@@ -1,20 +1,47 @@
 <div class="about-container">
   <h1>ABOUT</h1>
-
-  <div class="about-photo">
-
-  </div>
-
-  <div class="about-description">
-    <p>
-
-    </p>
+  <!-- <div class="about-photo">
+    <%= cl_image_tag("prof", width: 300, length: 220) %>
+  </div> -->
+  <div class="about-flex">
+    <div class="about-description">
+      <p>
+        Passionate about learning
+      </p>
+    </div>
+    <div class="about-resume">
+      <div class="about-education">
+        <h4>EDUCATION</h4>
+        <p><strong>University of Southern California, Marshall School of Business</strong><br>
+        Bachelor of Science in Business Administration, Emphasis in Cinematic Arts
+        </p>
+        <p><strong>Le Wagon</strong><br>
+        Full-Stack Coding Certification</p>
+        <p><strong>Springboard</strong><br>
+        UX/UI Design Certification</p>
+      </div>
+      <!-- <div class="about-work">
+        <h4>EXPERIENCE</h4>
+        <p><strong>IMAX Corporation</strong><br>
+        <i>Marvel’s Inhumans Theatrical Experience Intern</i><br>
+        • Collaborated with four interns to design and produce animated brand campaign advertisement and presented to CEO and company, resulting in private meeting with executives.
+        <br>
+        • Built comprehensive excel spreadsheet to evaluate data from 10 different departments in order to facilitate distribution of television show and efficiently meet multiple deadlines.
+        <br>
+        • Coordinated the planning and distribution of promotional assets with over 100 theaters worldwide.
+        </p>
+      </div> -->
+      <div class="about-skills">
+        <h4>SKILLS</h4>
+      </div>
+    </div>
   </div>
 
   <div class="nav">
     <%= link_to "ABOUT", about_path, {:style=>'font-weight:700;'} %>
     <%= link_to "PORTFOLIO", portfolio_path %>
     <%= link_to "CONTACT", contact_path %>
+    <%= link_to "TRAVEL", travel_path %>
   </div>
 </div>
 

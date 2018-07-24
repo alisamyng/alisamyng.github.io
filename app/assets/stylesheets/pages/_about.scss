@@ -3,3 +3,43 @@
   height: 100vh;
   position: relative;
 }
+
+.about-flex {
+  display: flex;
+  align-item: center;
+}
+
+.about-description {
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 50px;
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+}
+
+.about-photo {
+  margin-bottom: 20px;
+}
+
+.about-resume {
+  margin-left: 60px;
+  padding: 20px;
+  h4 {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 2px;
+  }
+    p {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+
+.about-education {
+  margin-bottom: 20px;
+}
+
+
